@@ -5,10 +5,10 @@ import { Container } from "./container";
 import { ThemeToggle } from "./theme-toggle";
 
 const NAV_LINKS = [
-  { href: "#now", label: "now" },
-  { href: "#projects", label: "projects" },
+  { href: "#now", label: "agora" },
+  { href: "#projects", label: "projetos" },
   { href: "#posts", label: "posts" },
-  { href: "#connect", label: "contact" },
+  { href: "#connect", label: "contato" },
 ];
 
 export function Header() {
@@ -25,7 +25,7 @@ export function Header() {
             <span className="text-(--accent)">@carvalhocaio</span>:~$
           </a>
           <nav
-            aria-label="Section navigation"
+            aria-label="Navegação entre seções"
             className="flex items-center gap-[clamp(10px,2.4vw,22px)]"
           >
             <div className="hidden items-center gap-[clamp(10px,2.4vw,22px)] md:flex">
@@ -44,10 +44,10 @@ export function Header() {
               onClick={() => setMenuOpen((open) => !open)}
               aria-expanded={menuOpen}
               aria-controls="mobile-nav"
-              aria-label={menuOpen ? "Close navigation menu" : "Open navigation menu"}
+              aria-label={menuOpen ? "Fechar menu de navegação" : "Abrir menu de navegação"}
               className="text-xs text-(--dim) transition-colors hover:text-(--accent) active:text-(--accent) md:hidden"
             >
-              [{menuOpen ? "close" : "menu"}]
+              [{menuOpen ? "fechar" : "menu"}]
             </button>
             <ThemeToggle />
           </nav>

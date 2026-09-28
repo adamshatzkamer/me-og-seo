@@ -38,7 +38,7 @@ export function CopyEmailButton() {
             : "w-full shrink-0 border border-(--border) px-3.5 py-1.5 text-xs text-(--text) transition-colors hover:border-(--accent) hover:text-(--accent) active:border-(--accent) active:text-(--accent) sm:w-auto"
         }
       >
-        {copied ? "[ copied ✓ ]" : "[ copy ]"}
+        {copied ? "[ copiado ✓ ]" : "[ copiar ]"}
       </button>
     </div>
   );

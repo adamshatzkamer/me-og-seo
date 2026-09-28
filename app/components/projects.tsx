@@ -46,7 +46,7 @@ export async function Projects() {
           className="mb-8 flex flex-wrap items-baseline justify-between gap-3.5"
         >
           <span className="font-mono text-[clamp(15px,2.4vw,20px)] text-(--text)">
-            <span className="text-(--accent)">[ 02 ]</span> projects
+            <span className="text-(--accent)">[ 02 ]</span> projetos
             <span className="text-(--dim)"> — ls ./repos</span>
           </span>
           <a
@@ -63,12 +63,12 @@ export async function Projects() {
             key: project.name,
             href: project.html_url,
             primary: `./${project.name}`,
-            secondary: project.description ?? "No description yet.",
+            secondary: project.description ?? "Ainda sem descrição.",
           }))}
-          actionLabel="open →"
+          actionLabel="abrir →"
           primaryClassName="font-mono text-[17px] font-semibold text-(--accent)"
           secondaryClassName="max-w-[62ch] break-words text-sm leading-[1.55] text-(--dim)"
-          emptyMessage="Couldn't load the projects right now — check them directly on"
+          emptyMessage="Não foi possível carregar os projetos agora — confira direto no"
           emptyLinkHref="https://github.com/carvalhocaio"
           emptyLinkLabel="GitHub"
         />

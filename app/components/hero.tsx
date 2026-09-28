@@ -40,12 +40,12 @@ export function Hero() {
           </h1>
 
           <p className="font-mono text-[13px] tracking-[0.02em] text-(--accent)">
-            software · data · ai
+            software · dados · ia
           </p>
 
           <div className="flex items-center gap-2.25 font-mono text-xs text-(--dim)">
             <span className="h-2 w-2 animate-[pulse-dot_2s_ease-in-out_infinite] rounded-full bg-(--accent) motion-reduce:animate-none" />
-            status: working at the{" "}
+            status: trabalhando na{" "}
             <a
               href="https://www.scheffer.agr.br/"
               target="_blank"
@@ -63,7 +63,7 @@ export function Hero() {
               rel="noopener noreferrer"
               className="bg-(--accent) px-4.5 py-2.75 text-[13px] text-(--bg) transition-opacity hover:opacity-90 active:opacity-90"
             >
-              [ view_resume ]
+              [ ver_currículo ]
             </a>
             <a
               href="mailto:caiocarvalho.py@gmail.com"

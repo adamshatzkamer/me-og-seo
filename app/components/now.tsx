@@ -4,18 +4,18 @@ import { SpotlightCard } from "./spotlight-card";
 const FOCUS = [
   {
     n: "01",
-    title: "data_pipelines",
-    desc: "Orchestration and transformations that keep data reliable, fresh, and ready to use — Oracle → BigQuery, Airflow, dbt, and CDC via LogMiner.",
+    title: "pipelines_de_dados",
+    desc: "Orquestração e transformações que mantêm os dados confiáveis, atualizados e prontos para uso — Oracle → BigQuery, Airflow, dbt e CDC via LogMiner.",
   },
   {
     n: "02",
-    title: "ai_agents",
-    desc: "Production agents on top of LLMs that reason, call tools, and act — agentic workflows, RAG, and tool orchestration.",
+    title: "agentes_de_ia",
+    desc: "Agentes em produção sobre LLMs que raciocinam, chamam ferramentas e agem — workflows agênticos, RAG e orquestração de ferramentas.",
   },
   {
     n: "03",
-    title: "backend_architecture",
-    desc: "Systems built to scale and last, where data and intelligence meet — Python APIs (FastAPI) and REST integrations.",
+    title: "arquitetura_backend",
+    desc: "Sistemas construídos para escalar e durar, onde dados e inteligência se encontram — APIs em Python (FastAPI) e integrações REST.",
   },
 ];
 
@@ -30,7 +30,7 @@ export function Now() {
           data-reveal
           className="mb-8 font-mono text-[clamp(15px,2.4vw,20px)] text-(--text)"
         >
-          <span className="text-(--accent)">[ 01 ]</span> now
+          <span className="text-(--accent)">[ 01 ]</span> agora
           <span className="text-(--dim)"> — ps aux</span>
         </div>
         <div className="grid grid-cols-[repeat(auto-fit,minmax(230px,1fr))] gap-3.5">

@@ -5,19 +5,19 @@ const LINKS = [
   {
     id: "in",
     label: "linkedin",
-    desc: "see my career",
+    desc: "veja minha carreira",
     url: "https://www.linkedin.com/in/1caiocarvalho/",
   },
   {
     id: "gh",
     label: "github",
-    desc: "see my projects",
+    desc: "veja meus projetos",
     url: "https://github.com/carvalhocaio",
   },
   {
     id: "dt",
     label: "dev.to",
-    desc: "check out my posts.",
+    desc: "confira meus posts",
     url: "https://dev.to/carvalhocaio",
   },
 ];
@@ -33,7 +33,7 @@ export function Connect() {
           data-reveal
           className="mb-8 font-mono text-[clamp(15px,2.4vw,20px)] text-(--text)"
         >
-          <span className="text-(--accent)">[ 04 ]</span> contact
+          <span className="text-(--accent)">[ 04 ]</span> contato
           <span className="text-(--dim)"> — curl</span>
         </div>
         <div>

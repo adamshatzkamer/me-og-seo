@@ -12,7 +12,7 @@ export function Footer() {
             href="#top"
             className="transition-colors hover:text-(--accent) active:text-(--accent)"
           >
-            back_to_top ↑
+            voltar_ao_topo ↑
           </a>
         </div>
       </Container>

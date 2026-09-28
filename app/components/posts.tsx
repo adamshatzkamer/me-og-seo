@@ -27,7 +27,7 @@ async function getLatestPosts(): Promise<DevToArticle[]> {
   }
 }
 
-const dateFormatter = new Intl.DateTimeFormat("en-US", {
+const dateFormatter = new Intl.DateTimeFormat("pt-BR", {
   day: "2-digit",
   month: "short",
   year: "numeric",
@@ -56,7 +56,7 @@ export async function Posts() {
             rel="noopener noreferrer"
             className="font-mono text-xs text-(--dim) transition-colors hover:text-(--accent) active:text-(--accent)"
           >
-            view profile →
+            ver perfil →
           </a>
         </div>
         <FeedList
@@ -66,10 +66,10 @@ export async function Posts() {
             primary: post.title,
             secondary: dateFormatter.format(new Date(post.published_at)),
           }))}
-          actionLabel="read →"
+          actionLabel="ler →"
           primaryClassName="break-words font-mono text-[15px] font-semibold text-(--accent)"
           secondaryClassName="text-xs text-(--dim)"
-          emptyMessage="Couldn't load the posts right now — check them directly on"
+          emptyMessage="Não foi possível carregar os posts agora — confira direto no"
           emptyLinkHref="https://dev.to/carvalhocaio"
           emptyLinkLabel="dev.to"
         />
